@@ -6,7 +6,7 @@
 
 import random
 
-random_number = (random.randint(0,8+1)) # a number between 0 and 9
+random_number = (random.randint(0, 8+1))  # a number between 0 and 9
 
 
 def main():
@@ -28,6 +28,7 @@ def main():
         if restart == "Y" or "y":
             print("OK")
             main()
-            
+
+
 if __name__ == "__main__":
     main()
